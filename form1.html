@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>form </title>
+  
+ </head>
+
+<body>
+
+
+<h1>Quiz 1 </h1>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<main class="Q">
+	<form name="LF" action="" method="post">
+		<fieldset>
+			<legend>Quiz 1</legend>
+		<br>
+		<label id="q11" class="Q">1- What is ---------------------</label>
+		<ol>
+		<li><input id="1" type="radio" name="First step" value="first"> first </li>
+		<li><input  type="radio" name="First step" value="second"> second </li>
+		<li><input  type="radio" name="First step" value="none" checked>  none</li>
+		</ol>
+		<label id="q12" class="Q">2- What is ---------------------------- ?</label>
+		<ol>
+		<li><input type="checkbox" name="Checkbox1" value="1">******</li>
+		<li><input type="checkbox" name="Checkbox2" value="2">******</li>
+		<li><input type="checkbox" name="Checkbox3" value="3">******</li>
+		</ol>
+		
+		<label id="q13"  class="Q">3- How many ----------- ?</label>
+		
+		<select name="days">
+		<!--	<option  value="0">choose one </option> -->
+			<option id="op1"  value="2">2</option>
+			<option  value="2">0</option>
+			<option  value="7">7</option>
+			<option  value="5">5</option>
+		</select>
+		<br>
+		<br>
+		
+		<!--<input class="bb" type="submit" value="Submit" onclick="validateForm1()">-->
+				<button class="bb" type="button"  onclick="validateForm1()"> SUBMIT</button>
+		<button class="bb" type="button" onclick="resetf1()"> Reset</button>
+		<button class="bb" type="button"  onclick="goBack()">back</button>
+		<br>
+				</fieldset>
+	</form>
+	
+	
+<br>
+<br>
+<br>
+<br><br>
+<br>
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+<footer>
+<hr>
+<nav class="navfooter">
+<a href="AboutUs.html">About Us</a> |
+<a href="Contact Us.html">Contact Us</a> |
+<a href="Sitemap.html">Sitemap</a> 
+</nav>
+<br>
+<br>
+</footer>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+</body>
+
+
+</html>
